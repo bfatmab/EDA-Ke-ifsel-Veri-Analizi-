@@ -1,7 +1,11 @@
 # EDA(Kesifsel Veri Analizi)
  Keşifsel Veri Analizi (EDA) sürecinde kullanılan çeşitli Python kodlarını içermektedir. EDA, veri biliminde verinin temel özelliklerini anlamak ve veri setinin yapısını keşfetmek için önemli bir adımdır. Bu kütüphanede, veri analizi sürecinde kullanılan çeşitli teknikler ve yöntemler yer almaktadır.
 
- 
+  Hedef Değişken (Target Variable)
+ Hedef değişken, bir makine öğrenimi modelinde tahmin edilmek istenen asıl değişkendir. Model, bu değişkeni diğer bağımsız değişkenlerle (özellikler) ilişkili olarak öğrenir ve tahmin eder. Sınıflandırma problemlerinde hedef değişken kategorik olabilirken, regresyon problemlerinde sayısal olabilir.
+Kategorik Hedef Değişken: Sınıflandırma problemlerinde, hedef değişken belirli kategorilere ayrılır. Örneğin, bir kişinin hayatta kalıp kalmadığını (0 veya 1) tahmin etmeye çalışmak.
+Sayısal Hedef Değişken: Regresyon problemlerinde, hedef değişken bir sayı ya da sürekli bir değer olabilir. Örneğin, bir evin fiyatını tahmin etmek.
+Hedef değişkenin analizi, modelin doğruluğunu artırmak için oldukça önemlidir ve verinin yapısını anlamaya yardımcı olur.
     
   **Titanic Veri Seti**:
    - **Açıklama**: Titanic veri seti, Titanic gemisinin yolcuları hakkında çeşitli bilgiler içerir ve genellikle hayatta kalma tahminleri yapmak için kullanılır. Veri seti, yolcu bilgilerini, bilet türlerini, yaşlarını, cinsiyetlerini ve daha fazlasını içerir.
